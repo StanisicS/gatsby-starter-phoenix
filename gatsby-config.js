@@ -19,16 +19,12 @@ module.exports = {
         link: `/blog`,
       },
       {
-        name: `Podcast`,
-        link: `/podcast`,
-      },
-      {
         name: `Porfolio`,
         link: `/portfolio`,
       },
       {
-        name: `Photography`,
-        link: `/photography`,
+        name: `About`,
+        link: `/about`,
       },
     ],
     socialLinks: [
@@ -55,27 +51,6 @@ module.exports = {
     `@arshad/gatsby-theme-blog-core`,
     `@arshad/gatsby-theme-page-core`,
     `@arshad/gatsby-theme-portfolio-core`,
-    {
-      resolve: `@arshad/gatsby-theme-podcast-core`,
-      options: {
-        feedUrl: `https://feeds.megaphone.fm/travelgenius`,
-        podcast: {
-          name: `Travel Genuis`,
-          description: `Eligendi nisi nobis nisi voluptate. Corporis deserunt provident hic numquam. Veritatis vero necessitatibus adipisci cumque voluptate rerum at.`,
-          image: `assets/images/podcast.jpg`,
-          social: [
-            {
-              name: `Apple Podcast`,
-              url: `https://itunes.apple.com`,
-            },
-            {
-              name: `Google Podcast`,
-              url: `https://podcasts.google.com`,
-            },
-          ],
-        },
-      },
-    },
     `@arshad/gatsby-theme-phoenix`,
   ],
 }
