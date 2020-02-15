@@ -55,7 +55,6 @@ module.exports = {
     `@arshad/gatsby-theme-blog-core`,
     `@arshad/gatsby-theme-page-core`,
     `@arshad/gatsby-theme-portfolio-core`,
-    `@arshad/gatsby-theme-photo-core`,
     {
       resolve: `@arshad/gatsby-theme-podcast-core`,
       options: {
